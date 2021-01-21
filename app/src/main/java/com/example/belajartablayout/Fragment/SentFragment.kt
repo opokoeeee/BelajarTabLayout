@@ -7,12 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.belajartablayout.R
 
-
-/**
- * A simple [Fragment] subclass.
- * Use the [SentFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class SentFragment : Fragment() {
 
     override fun onCreateView(
@@ -22,5 +16,5 @@ class SentFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_sent, container, false)
     }
-
 }
+
